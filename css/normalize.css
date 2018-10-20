@@ -6,10 +6,10 @@
  * Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%; 
-  -webkit-text-size-adjust: 100%; 
-  line-height: 1.15; 
+  	font-family: sans-serif;
+  	-ms-text-size-adjust: 100%; 
+  	-webkit-text-size-adjust: 100%; 
+  	line-height: 1.15; 
 }
 
 /**
@@ -17,7 +17,7 @@ html {
  *
  */
 body {
-  margin: 0;
+  	margin: 0;
 }
 
 /**
@@ -37,32 +37,30 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+  	display: block;
 }
-
 audio,
 canvas,
 progress,
 video {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  	display: inline-block; /* 1 */
+  	vertical-align: baseline; /* 2 */
 }
-
 [hidden],
 template {
-  display: none;
+ 	display: none;
 }
 
 /**
  * Pretty links in ugly browsers, remove backgrond colour in IE10, improve readability
  */
 a {
-  background-color: transparent;
+  	background-color: transparent;
 }
 
 a:active,
 a:hover {
-  outline: 0;
+  	outline: 0;
 }
 
 /**
@@ -70,7 +68,7 @@ a:hover {
  */
 b,
 strong {
-  font-weight: bold;
+  	font-weight: bold;
 }
 
 /**
@@ -78,8 +76,8 @@ strong {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  	font-size: 2em;
+  	margin: 0.67em 0;
 }
 
 /**
@@ -87,17 +85,17 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box; /* 1 */
+  	height: 0; /* 1 */
+  	overflow: visible; /* 2 */
 }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%;
+  	font-size: 80%;
 }
 
 /**
@@ -105,16 +103,16 @@ small {
  */
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+  	font-size: 75%;
+  	line-height: 0;
+  	position: relative;
+  	vertical-align: baseline;
 }
 sup {
-  top: -0.5em;
+  	top: -0.5em;
 }
 sub {
-  bottom: -0.25em;
+  	bottom: -0.25em;
 }
 
 /**
@@ -123,9 +121,9 @@ sub {
  * 3. Contain overflow in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-  overflow: auto; /* 3 */
+  	font-family: monospace, monospace; /* 1 */
+  	font-size: 1em; /* 2 */
+  	overflow: auto; /* 3 */
 }
 
 /**
@@ -135,8 +133,8 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  	font-family: monospace, monospace;
+  	font-size: 1em;
 }
 
 /**
@@ -151,18 +149,18 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
-  font-size: 100%; /* 3 */
-  line-height: 1.15; /* 3 */
-  margin: 0; /* 4 */
+  	color: inherit; /* 1 */
+  	font: inherit; /* 2 */
+  	font-size: 100%; /* 3 */
+  	line-height: 1.15; /* 3 */
+  	margin: 0; /* 4 */
 }
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 button {
-  overflow: visible;
+  	overflow: visible;
 }
 
 /**
@@ -174,7 +172,7 @@ button {
  */
 button,
 select {
-  text-transform: none;
+  	text-transform: none;
 }
 
 /**
@@ -186,8 +184,8 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
+  	-webkit-appearance: button;
+  	cursor: pointer;
 }
 
 /**
@@ -197,8 +195,8 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+  	border-style: none;
+  	padding: 0;
 }
 
 /**
@@ -208,16 +206,15 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  	outline: 1px dotted ButtonText;
 }
 
 /**
  * Re-set default cursor for disabled elements.
  */
-
 button[disabled],
 html input[disabled] {
-  cursor: default;
+  	cursor: default;
 }
 
 /**
@@ -225,7 +222,7 @@ html input[disabled] {
  * the UA stylesheet.
  */
 input {
-  line-height: normal;
+  	line-height: normal;
 }
 
 /**
@@ -235,11 +232,10 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  	box-sizing: border-box; /* 1 */
+  	padding: 0; /* 2 */
 }
 
 /**
@@ -247,10 +243,9 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
+  	height: auto;
 }
 
 /**
@@ -260,11 +255,11 @@ input[type="number"]::-webkit-outer-spin-button {
  */
 
 input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box; /* 2 */
-  box-sizing: content-box;
-  outline-offset: -2px;
+  	-webkit-appearance: textfield; /* 1 */
+  	-moz-box-sizing: content-box;
+  	-webkit-box-sizing: content-box; /* 2 */
+  	box-sizing: content-box;
+  	outline-offset: -2px;
 }
 
 /**
@@ -277,12 +272,10 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   	-webkit-appearance: none;
 }
-
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  	-webkit-appearance: button; /* 1 */
+  	font: inherit; /* 2 */
 }
-
 fieldset {
   	border: 1px solid #c0c0c0;
   	margin: 0 2px;
@@ -304,16 +297,15 @@ legend {
   	padding: 0; /* 3 */
   	white-space: normal; /* 1 */
 }
-
 textarea {
-  overflow: auto;
+  	overflow: auto;
 }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
+  	vertical-align: baseline;
 }
 
 /**
@@ -321,33 +313,33 @@ progress {
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 optgroup {
-  font-weight: bold;
+  	font-weight: bold;
 }
 
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
+  	display: block;
 }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
+  	display: list-item;
 }
 
 /**
  * Remove most spacing between table cells.
  */
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+  	border-collapse: collapse;
+  	border-spacing: 0;
 }
 td,
 th {
-  padding: 0;
+  	padding: 0;
 }
 
 /**
@@ -356,4 +348,3 @@ th {
 img {
   	border-style: none;
 }
-
