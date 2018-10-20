@@ -5,7 +5,7 @@ Check out <http://www.digitalyogis.com/spinel> for documentation and details.
 
 ## Getting started
 Currently there is only one way to get started:
-- Clone the repo: _git clone https://github.com/dhg/Spinel.git_ (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
+- Clone the repo: _git clone https://github.com/szabcsee/Spinel.git_ (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
 
 
 ### What's in the download?
