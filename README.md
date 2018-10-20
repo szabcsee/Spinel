@@ -1,7 +1,7 @@
 # [Spinel](http://www.digitalyogis.com/spinel)
 Spinel: A light-weight UI Starter-Kit for Mobile-Friendly Development http://www.digitalyogis.com/spinel to kickstart responsive projects (mainly on Rails).
 
-Check out <http://www.digitalyogis.com/spinel> for documentation and details.
+Check out <http://www.digitalyogis.com/getspinel> for documentation and details.
 
 ## Getting started
 Currently there is only one way to get started:
@@ -52,7 +52,11 @@ Have an extension you want to see here? Just shoot an email to szabi [snail's pl
 
 ## Colophon
 
-Spinel was built using [TextMate](http://www.maromates.com).
+Spinel was built using [TextMate](http://www.maromates.com)
+The basic structure and inspiration came from [Skeleton CSS](https://github.com/dhg/Skeleton) created by [Dave Gamache](https://github.com/dhg)
+The normalize.css started out from [necolas](github.com/necolas/normalize.css) and [anishathalye's](git.io/normalize) normalize projects
+Typeface is the beautiful [Montserrat](https://fonts.google.com/specimen/Montserrat) created by [Julieta Ulanovsky](http://www.zkysky.com.ar/)
+
 
 
 ## Acknowledgement
